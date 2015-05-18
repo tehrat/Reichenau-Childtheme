@@ -16,9 +16,6 @@
 
 <?php wp_footer(); ?></body>
 </div>
-<div id="mitgliedschaftenbg">
-<div id="mitgliedschaften"> Mitgliedschaften<a href="http://www.mdvs.ch" target="_blank"><img src="http://www.reichenau.ch/wp-content/themes/reichenau/images/logo-memoire-des-vins-suisses.png" alt="http://www.reichenau.ch/wp-content/themes/reichenau/images/logo-memoire-des-vins-suisses.png" name="mitgliedschaftenpic1" id="mitgliedschaftenpic1" /></a><a href="http://jsnw.ch" target="_blank"><img src="http://www.reichenau.ch/wp-content/themes/reichenau/images/logo-junge-schweiz-neue-winzer.png" alt="http://www.reichenau.ch/wp-content/themes/reichenau/images/logo-junge-schweiz-neue-winzer.png" name="mitgliedschaftenpic" id="mitgliedschaftenpic" /></a><a href="http://www.graubuendenwein.ch" target="_blank"><img src="http://www.reichenau.ch/wp-content/themes/reichenau/images/logo-graubuenden-wein.png" alt="http://www.reichenau.ch/wp-content/themes/reichenau/images/logo-graubuenden-wein.png" name="mitgliedschaftenpic" id="mitgliedschaftenpic" /></a></div>
-    </div>
-	<div align="center">
+<div align="center">
 
 </html>

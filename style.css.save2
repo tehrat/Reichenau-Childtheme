@@ -199,7 +199,6 @@ textarea {
 /* Links */
 a {
   color: #248cc8;
-  text-decoration: none;
 }
 a:hover,
 a:focus,
@@ -527,7 +526,6 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   zoom: 1;
-  margin-top: -20px;
 }
 #masthead:before {
   content: '';
@@ -1671,7 +1669,7 @@ article.page.post-with-thumbnail-icon .entry-main {
   font-size: 27px;
   font-family: 'DancingScript-Bold';
   color: #292624;
-  margin: 0.5em 0;
+  margin: 1em 0;
   text-align: center;
   font-weight: 500;
 }
@@ -2330,7 +2328,7 @@ body.layout-full {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
-  padding: 0 0;
+  padding: 0 15px;
   margin-bottom: 0;
   color: #b9b9b9;
 }
@@ -2923,7 +2921,6 @@ body.layout-full {
 .layout-full .panel-row-style.panel-row-style-wide-grey,
 .layout-full .panel-row-style.panel-row-style-full-width {
   margin: 0 -1000px;
-  margin-bottom: -40px;
   padding: 25px 1000px 25px 1000px;
 }
 .layout-boxed .panel-row-style {
@@ -3609,20 +3606,8 @@ body.layout-full {
 
 
 /* Footer Menu */
-#footer-main-menu {
-text-align: left;
-padding-left: 5px;
-display: inline-block;
-float: none;
-margin-right: 16px;
-font-family: "Futura-Book", sans-serif;
-color: #000000;
-}
-#footer-main-menu:hover {
-padding:0px 10px 0px 10px;
-font-family: "Futura-Book", sans-serif;
-color: #838281;
-}
+
+
 /*
 #footer-widgets .widget.widget_nav_menu ul {
 text-align: left;
@@ -3640,6 +3625,20 @@ margin-right: 0;
 color: #838281;
 }
 */
+#footer-main-menu {
+text-align: left;
+padding-left: 5px;
+display: inline-block;
+float: none;
+margin-right: 16px;
+font-family: "Futura-Book", sans-serif;
+color: #000000;
+}
+#footer-main-menu:hover {
+padding:0px 10px 0px 10px;
+font-family: "Futura-Book", sans-serif;
+color: #838281;
+}
 
 
 /* MAP */
@@ -3694,7 +3693,7 @@ color: #838281;
 
 } */
 
-/* Service-Menu
+/* Service Menu
 -------------------------------------------------------------- */
 #header-sidebar .widget_nav_menu ul.menu {
   font-family: "Futura-Book", sans-serif;
