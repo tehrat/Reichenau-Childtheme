@@ -3792,22 +3792,30 @@ color: #838281;
 }
 
 .fb-feed h3.widget-title {
-    margin-left: 24px;
+    margin-left: 21px;
+    background-color: #b10032;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Futura-Book", Arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 .fb-feed h3.widget-title a {
     color: #fff;
+    padding: 6px;
 }
 
 .fb-feed h3.widget-title:hover {
-    background-color: #ec6c49;
+    background-color: #292624;
     transition: background-color 0.2s ease-in;
 }
 
 .fb-feed .fb-feed-figure {
-    padding: 0 24px;
+    padding: 0 21px;
     width: 24%;
-    margin-bottom: 48px;
+    margin-bottom: 42px;
     box-sizing: border-box;
     display: -moz-inline-stack;
     display: inline-block;
@@ -3817,34 +3825,30 @@ color: #838281;
 .fb-feed .fb-feed-figure img {
     width: 33.33%;
     float: left;
-    margin-right: 24px;
+    margin-right: 21px;
     box-sizing: border-box;
 }
 
 .fb-feed .fb-feed-figcaption {
     margin-top: -5px;
-    color: #5e5c58;
-    font-size: 18px; 
+    color: #292624;
+    font-size: 15px;
 }
 
-.fb-feed .fb-feed-figcaption {
-    margin-top: -5px;
-    color: #5e5c58;
-    font-size: 18px; 
-}
+
 
 .fb-feed a .fb-feed-figcaption {
     transition: color 0.4s ease-out;
 }
 
 .fb-feed a:hover .fb-feed-figcaption {
-    color: #ec6c49;
+    color: #b10032;
     transition: color 0.2s ease-in;
 }
 
 .fb-feed .fb-feed-figcaption .fb-feed-date {
-    font-family: 'Fututa-Book', Georgia, serif;
-    color: #221F16;
+    font-family: 'Fututa-Bold', Arial, sans-serif;
+    color: #292624;
     display: block;
 }
 
