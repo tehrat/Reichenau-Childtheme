@@ -3814,12 +3814,13 @@ color: #838281;
 
 .fb-feed .fb-feed-figure {
     padding: 0 21px;
-    width: 24%;
+    width: 33%;
     margin-bottom: 42px;
     box-sizing: border-box;
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: top;
+    border-left: 1px solid #bab8b8;
 }
 
 .fb-feed .fb-feed-figure img {

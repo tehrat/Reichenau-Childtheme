@@ -64,7 +64,7 @@ $facebook = new Facebook(array(
 $pageId = '551232641584454';
 // this is Weinbau von Tscharner's page id
 // to establish your page id -> http://graph.facebook.com/redbull
-$rawfeed = $facebook->api($pageId . '/feed?locale=de_DE&limit=8');
+$rawfeed = $facebook->api($pageId . '/feed?locale=de_DE&limit=6');
 // print_r($rawfeed);
 
 // Filter
