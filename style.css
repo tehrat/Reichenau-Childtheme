@@ -3823,6 +3823,10 @@ color: #838281;
     border-left: 1px solid #bab8b8;
 }
 
+.fb-feed .fb-feed-figure:nth-child(3n+2){
+    border-left: none;
+}
+
 .fb-feed .fb-feed-figure img {
     width: 33.33%;
     float: left;
@@ -3848,9 +3852,10 @@ color: #838281;
 }
 
 .fb-feed .fb-feed-figcaption .fb-feed-date {
-    font-family: 'Fututa-Bold', Arial, sans-serif;
+    font-family: 'Futura-Book', Arial, sans-serif;
     color: #292624;
     display: block;
+    font-weight: bold;
 }
 
 @media (max-width: 1024px) {
