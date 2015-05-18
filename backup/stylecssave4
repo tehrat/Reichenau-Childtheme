@@ -1,0 +1,130 @@
+/*
+Theme Name: Reichenau
+Author: CM-Solutions AG
+Author URI: http://www.solutions.ch
+Template:     vantage
+Version: 2.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive-layout, fluid-layout, custom-background, custom-menu, featured-images, theme-options, threaded-comments, translation-ready, black, white, light, one-column, two-columns, full-width-template
+Text Domain:  Reichenau Theme
+*/
+
+/* =Reset
+-------------------------------------------------------------- */
+@import url("../vantage/style.css");
+
+
+
+/* Fonts
+-------------------------------------------------------------- */
+@font-face {
+   font-family: Futura-Book;
+   src: url('http://www.reichenau.ch/wp-content/themes/reichenau/fonts/Futura-Book.eot');
+   src: url('http://www.reichenau.ch/wp-content/themes/reichenau/fonts/Futura-Book.svg');
+   src: url('http://www.reichenau.ch/wp-content/themes/reichenau/fonts/Futura-Book.woff');
+   src: url('http://www.reichenau.ch/wp-content/themes/reichenau/fonts/Futura-Book.ttf') format("truetype");
+}
+@font-face {
+   font-family: Futura-Medium;
+   src: url('http://www.reichenau.ch/wp-content/themes/reichenau/fonts/Futura-Medium.eot');
+   src: url('http://www.reichenau.ch/wp-content/themes/reichenau/fonts/Futura-Medium.svg');
+   src: url('http://www.reichenau.ch/wp-content/themes/reichenau/fonts/Futura-Medium.woff');
+   src: url ('http://www.reichenau.ch/wp-content/themes/reichenau/fonts/Futura-Medium.ttf') format("truetype");
+}  
+	
+/* Vantage Horizontal Footer Menu
+-------------------------------------------------------------- */
+#footer-widgets .widget.widget_nav_menu ul {
+text-align: center;
+padding-left: 5px;
+}
+#footer-widgets .widget.widget_nav_menu li {
+display: inline-block;
+float: none;
+margin-right: 16px;
+}
+#footer-widgets .widget.widget_nav_menu li:last-of-type {
+margin-right: 0;
+}
+
+/* MAP
+-------------------------------------------------------------- */
+.layout-full #page-wrapper .header-map {
+  background: #2a0e0b;
+  margin: 0 -35px 0 -35px;
+  padding: 0;
+}
+
+/* Scroll Icon
+-------------------------------------------------------------- */
+#scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  -ms-transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+  opacity: 0;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+#scroll-to-top .vantage-icon-arrow-up {
+  display: block;
+  width: 60px;
+  height: 72px;
+  background: url(http://www.reichenau.ch/wp-content/themes/reichenau/images/nach-oben.svg) no-repeat;
+}
+#scroll-to-top.displayed {
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  opacity: 1 !important;
+  background: url(http://www.reichenau.ch/wp-content/themes/reichenau/images/nach-oben.svg) no-repeat;
+}
+
+
+/* Service Menu
+-------------------------------------------------------------- */
+#header-sidebar .widget_nav_menu ul.menu {
+  font-family: "Futura-Book", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  margin: -30px;
+  color: #838281;
+}
+#header-sidebar .widget_nav_menu ul.menu > li {
+  font-family: "Futura-Book", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  list-style: none;
+  margin-right: 0px;
+  position: relative;
+  color: #838281;	
+}
+#header-sidebar .widget_nav_menu ul.menu > li:last-child {
+  margin-right: 10px;
+}
+#header-sidebar .widget_nav_menu ul.menu > li > a {
+  display: block;
+  text-decoration: none;
+  padding: 0.75em 0.75em;
+}
+#header-sidebar .widget_nav_menu ul.menu > li > a:hover {
+  display: block;
+  text-decoration: none;
+  color: #0f0e0d;	
+  padding: 0.75em 0.75em;
+  line-height: 0.5em;
+  background-color: #f0f0f0;
+}
+#header-sidebar .widget_nav_menu ul.menu > li > a:active {
+  display: block;
+  text-decoration: none;
+  color: #0f0e0d;	
+  padding: 0.75em 0.75em;
+  line-height: 0.5em;
+  background-color: #e7e6e6;
+}

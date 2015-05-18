@@ -1,0 +1,11 @@
+-	MAP Toggle, auf welcher Ebene muss das Icon Platziert werden? Hast Du ein anderes Script?
+-	2nd Footer (Mitgliedschaften) – Habe ich im Footer PHP manuell gemacht. Wegen dem Hintergrund. Sroll to top verschwindet dahinter, Responsitiv sieht nicht gut aus. Ev. mit Pagebuilder machen?
+-	Files für Facebookfeed bitte mir senden oder hochladen, einbinden sollte ich hinkriegen
+-	Slider Textbox
+-	Slider Bild Berge ist zu unscharf
+-	Side Menu CSS ist noch nicht erstellt
+-	Footer Menu CSS ist noch nicht erstellt
+-	Footer, Darstellung
+-	Mobile Menu – Alle Menus In ein Menu einbinden 
+-	Sollen die Weine als Beitrag erfasst werden und auf einer Seite dargestellt werden?
+-	Service Menu – Current Box kriege ich nicht hin
