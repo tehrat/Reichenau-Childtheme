@@ -2206,17 +2206,41 @@ body.layout-full {
 
 .metaslider .flexslider .caption-wrap {
     position: absolute;
-    top: 38%;
-    left: 66%;
+    top: 50%;
+    left: 68.5%;
+    bottom: inherit;
     background: #292624;
     color: white;
     opacity: 0.7;
     display: block;
-    width: 33%;
+    width: 31.5%;
     line-height: 1.4em;
     padding: 42px;
     box-sizing: border-box;
+    transform: translate(0, -50%);
 
+}
+
+.metaslider .flexslider .caption-wrap .caption {
+    padding: 0;   
+
+}
+
+.metaslider .flexslider .caption-wrap .caption h3 span {
+    font-family:  'DancingScript-Bold', Georgia, serif;
+    font-size: 27px;
+}
+
+.metaslider .flexslider .caption-wrap .caption h3 {
+    font-family:  'Futura-Book', Arial, sans-serif;
+    font-size: 27px;
+    line-height: 30px;
+}
+
+.metaslider .flexslider .caption-wrap .caption p {
+    font-family:  'Futura-Medium', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 /* Styles for Metaslider Prebuilt */
