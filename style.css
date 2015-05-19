@@ -2204,7 +2204,7 @@ body.layout-full {
 
 /* Styles for Metaslider Flexslider Caption */
 
-.flexslider .metaslider .caption-wrap {
+.metaslider .flexslider .caption-wrap {
     position: absolute;
     top: 38%;
     left: 66%;
