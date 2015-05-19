@@ -2224,13 +2224,12 @@ body.layout-full {
 
 .metaslider .flexslider .caption-wrap .caption {
     padding: 0;   
-
 }
 
 .metaslider .flexslider .caption-wrap .caption h3 {
     font-family:  'Futura-Book', Arial, sans-serif;
     font-size: 27px;
-    letter-spacing: 0.125;
+    letter-spacing: 0.125em;
     line-height: 30px;
     margin-bottom: 21px;
 }
@@ -2260,6 +2259,7 @@ body.layout-full {
     font-family:  'Futura-Book', Arial, sans-serif;
     font-size: 15px;
     line-height: 22px;
+    letter-spacing: 0.06em;
 }
 
 /* Styles for Metaslider Prebuilt */
