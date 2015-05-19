@@ -1481,6 +1481,8 @@ article.page.post-with-thumbnail-icon .entry-main {
   zoom: 1;
   line-height: 1.6em;
   color: #666666;
+    margin-top: 42px;
+    margin-bottom: 72px;
   /* WordPress Images */
 }
 .entry-content:before {
