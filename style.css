@@ -2229,6 +2229,19 @@ body.layout-full {
 .metaslider .flexslider .caption-wrap .caption h3 span {
     font-family:  'DancingScript-Bold', Georgia, serif;
     font-size: 27px;
+    display: block;
+    margin-bottom: 72px;
+    text-align: center;
+    
+}
+
+.metaslider .flexslider .caption-wrap .caption h3 span:after {
+    position: absolute;
+    width: 42px;
+    height: 1px;
+    content: '';
+    background: url(images/linie.svg) no-repeat center center; 
+    
 }
 
 .metaslider .flexslider .caption-wrap .caption h3 {
