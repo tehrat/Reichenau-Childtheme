@@ -521,7 +521,7 @@ body {
 }
 #masthead {
   background: #fcfcfc;
-  padding: 0 35px 0 35px;
+  padding: 0 35px 30px 35px;
   -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -880,7 +880,7 @@ body.responsive.layout-full #page-wrapper .full-container {
   margin: 0 -35px;
   background: #343538;
   position: relative;
-  font-family: Futura-Medium;
+  font-family: 'Futura-Book', Arial, sans-serif;
   font-size: 21px;
   /* Font awesome icons */
   /* General menu link styling */
