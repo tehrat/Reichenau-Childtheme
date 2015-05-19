@@ -2961,9 +2961,9 @@ body.layout-full {
   clear: both;
 }
 .panel-row-style-wide-grey {
-  background: #f6f6f6;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+  background: #F3F3F3;
+  border-top: none;
+  border-bottom: none;
 }
 .layout-full .panel-row-style.panel-row-style-wide-grey,
 .layout-full .panel-row-style.panel-row-style-full-width {
