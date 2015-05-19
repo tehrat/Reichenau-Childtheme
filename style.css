@@ -2218,6 +2218,7 @@ body.layout-full {
     padding: 42px;
     box-sizing: border-box;
     transform: translate(0, -50%);
+    text-align: center;
 
 }
 
@@ -2226,12 +2227,20 @@ body.layout-full {
 
 }
 
+.metaslider .flexslider .caption-wrap .caption h3 {
+    font-family:  'Futura-Book', Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 0.125;
+    line-height: 30px;
+    margin-bottom: 21px;
+}
+
 .metaslider .flexslider .caption-wrap .caption h3 span {
     font-family:  'DancingScript-Bold', Georgia, serif;
     font-size: 27px;
+    letter-spacing: 0;
     display: block;
     margin-bottom: 72px;
-    text-align: center;
     
 }
 
@@ -2239,19 +2248,16 @@ body.layout-full {
     position: absolute;
     width: 42px;
     height: 1px;
+    margin-top: 54px;
+    left: 50%;
+    margin-left: -21px;
     content: '';
     background: url(images/linie.svg) no-repeat center center; 
     
 }
 
-.metaslider .flexslider .caption-wrap .caption h3 {
-    font-family:  'Futura-Book', Arial, sans-serif;
-    font-size: 27px;
-    line-height: 30px;
-}
-
 .metaslider .flexslider .caption-wrap .caption p {
-    font-family:  'Futura-Medium', Arial, sans-serif;
+    font-family:  'Futura-Book', Arial, sans-serif;
     font-size: 15px;
     line-height: 22px;
 }
