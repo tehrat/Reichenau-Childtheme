@@ -3928,34 +3928,3 @@ color: #838281;
     }  
 
 }
-
-/* Migliedschafen Footer
--------------------------------------------------------------- */
-#mitgliedschaften {
-  display: block; 
-  max-width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  padding-top: 40px;
-  padding-bottom: 70px;
-  text-align: left;  
-  color: #aeadad;
-  font-family: "Futura-Book", Arial, sans-serif;
-  font-size: 21px;
-  background-color: #2b2727;
-	
-}
-#mitgliedschaftenbg {
-  background-color: #2b2727;
-}
-#mitgliedschaftenpic1 {
-  margin-left: 5em;
-  padding-top: 20px;
-  margin-bottom: -18px;
-}
-#mitgliedschaftenpic {
-  margin-left: 2em;
-  padding-top: 20px;
-  margin-bottom: -18px;
-}
