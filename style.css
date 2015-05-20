@@ -2968,6 +2968,7 @@ body.layout-full {
 .layout-full .panel-row-style.panel-row-style-wide-grey,
 .layout-full .panel-row-style.panel-row-style-full-width {
   margin: 0 -1000px;
+  margin-bottom: -40px;
   padding: 25px 1000px 25px 1000px;
 }
 .layout-boxed .panel-row-style {
