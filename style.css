@@ -510,6 +510,13 @@ body {
   margin-right: auto;
   position: relative;
 }
+/* MAP
+-------------------------------------------------------------- */
+.layout-full #page-wrapper .header-map {
+  background: #2a0e0b;
+  margin: 0 -35px 0 -35px;
+  padding: 0;
+}
 @media (max-width: 1080px) {
   .responsive.layout-boxed #page-wrapper {
     margin: 0;
@@ -521,7 +528,7 @@ body {
 }
 #masthead {
   background: #fcfcfc;
-  padding: 0 35px 30px 35px;
+  padding: 0 35px 0px 35px;
   -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -878,6 +885,8 @@ body.responsive.layout-full #page-wrapper .full-container {
 ----------------------------------------------- */
 .main-navigation {
   margin: 0 -35px;
+  top: -30px;
+  margin-bottom: -65px;
   background: #343538;
   position: relative;
   font-family: 'Futura-Book', Arial, sans-serif;
@@ -3690,12 +3699,30 @@ color: #838281;
 
 /* MAP
 -------------------------------------------------------------- */
-.layout-full #page-wrapper .header-map {
-  background: #000000;
-  margin: 0 -35px 0 -35px;
-  padding: 0;
+#toggle {
+	background-color: transparent;
+	padding: 0px; 
+	width: 84px; 
+	position:relative;
+	cursor: pointer;
+	z-index: 5;
+	top: 46px;
 }
-
+#mapbase {
+	display: none;
+	background-color: transparent;
+	border: 0;
+	z-index: 5;
+	top: 46px;
+	}
+#mapbaseramen {
+	background-color: transparent;
+	border: 0;
+	margin: 0 auto;
+	z-index: 5;
+	top: 46px;
+	}
+	
 /* Scroll Icon
 -------------------------------------------------------------- */
 #scroll-to-top {
@@ -3747,7 +3774,7 @@ color: #838281;
 #header-sidebar .widget_nav_menu ul.menu {
   font-family: "Futura-Book", sans-serif;
   font-size: 13px;
-  margin: -30px;
+  margin: 0px;
   color: #838281;
 }
 #header-sidebar .widget_nav_menu ul.menu > li {
@@ -3765,7 +3792,6 @@ color: #838281;
 #header-sidebar .widget_nav_menu ul.menu > li > a {
   display: block;
   color: #838281;	
-  font-weight: 500;
   text-decoration: none;
   padding: 0.75em 0.75em;
   line-height: 0.5em;
@@ -3831,7 +3857,7 @@ color: #838281;
 #header-sidebar .widget_nav_menu .current_page_ancestor > a {
   display: block;
   text-decoration: none;
-  color: #0f0e0d1;	
+  color: #0f0e0d;	
   padding: 0.75em 0.75em;
   line-height: 0.5em;
   background-color: #e7e6e6;
