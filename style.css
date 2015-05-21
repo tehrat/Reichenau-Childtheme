@@ -1190,9 +1190,10 @@ article.page .entry-header .entry-thumbnail a {
 article.post .entry-header h1.entry-title,
 article.page .entry-header h1.entry-title {
   color: #3b3b3b;
-  font-size: 20px;
+  font-size: 27px;
   font-weight: 500;
   line-height: 1.35em;
+  padding-left:	275px;
 }
 article.post .entry-header h1.entry-title a,
 article.page .entry-header h1.entry-title a {
@@ -3967,4 +3968,70 @@ color: #838281;
         width: 99%;
     }  
 
+}
+
+/* Sidebar-Menu
+-------------------------------------------------------- */
+#main .widget_nav_menu {
+  font-family: "Futura-Book", sans-serif;
+  font-size: 13px;
+  color: #838281;
+  margin: 48px 0;
+}
+
+#main .widget_nav_menu ul {
+  font-family: "Futura-Book", sans-serif;
+  font-size: 13px;
+  color: #838281;
+  list-style: none outside none;
+  margin: 0;
+}
+
+#main .widget_nav_menu li {
+  border-top: 1px solid rgba(0, 0, 0, 0.2) !important;
+  position: relative;
+  padding-bottom: 0 !important;
+}
+
+#main .widget_nav_menu a {
+  padding: 0px 0px !important;
+  color: #838281;
+  display: block;
+  text-transform: none;
+}
+#main .widget_nav_menu:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1008px) {
+  #main .widget_nav_menu {
+    font-size: 11px;
+    margin: 0 -30px 48px;
+    width: 182px;
+  }
+	
+  #main .widget_nav_menu .widget-title {
+    margin: 0 30px 18px;
+  }
+	
+  #main .widget_nav_menu li {
+    position: relative;
+  }
+	
+  #main .widget_nav_menu a {
+    padding: 10px 30px;
+  }
+	
+  #main .widget_nav_menu li:hover > a,
+  #main .widget_nav_menu li.focus > a {
+    background-color: #e7e6e6;
+    color: #838281;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  #main .widget_nav_menu {
+    width: 222px;
+  }
 }
