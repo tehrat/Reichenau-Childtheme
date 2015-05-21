@@ -3653,7 +3653,8 @@ body.layout-full {
 
 
 
-/* Footer Menu */
+/* Footer Menu
+-------------------------------------------------------------- */
 #footer-main-menu {
 text-align: left;
 padding-left: 5px;
@@ -3687,14 +3688,16 @@ color: #838281;
 */
 
 
-/* MAP */
+/* MAP
+-------------------------------------------------------------- */
 .layout-full #page-wrapper .header-map {
   background: #000000;
   margin: 0 -35px 0 -35px;
   padding: 0;
 }
 
-/* Scroll Icon */
+/* Scroll Icon
+-------------------------------------------------------------- */
 #scroll-to-top {
 	position: fixed;
 	right: 24px;
@@ -3765,7 +3768,7 @@ color: #838281;
   font-weight: 500;
   text-decoration: none;
   padding: 0.75em 0.75em;
-  line-height: 1em;
+  line-height: 0.5em;
 }
 #header-sidebar .widget_nav_menu ul.menu > li > a:hover {
   display: block;
@@ -3822,6 +3825,17 @@ color: #838281;
 #header-sidebar .widget_nav_menu ul.menu li:hover > ul.sub-menu {
   display: block;
 }
+#header-sidebar .widget_nav_menu .current-menu-item > a,
+#header-sidebar .widget_nav_menu .current-menu-ancestor > a,
+#header-sidebar .widget_nav_menu .current_page_item > a,
+#header-sidebar .widget_nav_menu .current_page_ancestor > a {
+  display: block;
+  text-decoration: none;
+  color: #0f0e0d1;	
+  padding: 0.75em 0.75em;
+  line-height: 0.5em;
+  background-color: #e7e6e6;
+} 
 
 
 /* Facebook Feed
@@ -3927,35 +3941,4 @@ color: #838281;
         width: 99%;
     }  
 
-}
-
-/* Migliedschafen Footer
--------------------------------------------------------------- */
-#mitgliedschaften {
-  display: block; 
-  max-width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  padding-top: 40px;
-  padding-bottom: 70px;
-  text-align: left;  
-  color: #aeadad;
-  font-family: "Futura-Book", Arial, sans-serif;
-  font-size: 21px;
-  background-color: #2b2727;
-	
-}
-#mitgliedschaftenbg {
-  background-color: #2b2727;
-}
-#mitgliedschaftenpic1 {
-  margin-left: 5em;
-  padding-top: 20px;
-  margin-bottom: -18px;
-}
-#mitgliedschaftenpic {
-  margin-left: 2em;
-  padding-top: 20px;
-  margin-bottom: -18px;
 }
