@@ -198,13 +198,13 @@ textarea {
 }
 /* Links */
 a {
-  color: #248cc8;
+  color: #b10032;
   text-decoration: none;
 }
 a:hover,
 a:focus,
 a:active {
-  color: #f47e3c;
+  color: #292624;
 }
 /* Headings and Rulers */
 hr {
@@ -2185,6 +2185,11 @@ body.layout-full {
   -o-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
 }
+
+.flexslider .flex-direction-nav li a.flex-disabled {
+    display: none;
+}
+
 .flexslider .flex-direction-nav li a.flex-prev {
   left: 0;
   background: url(images/pfeil-links.svg) no-repeat center center;
@@ -2218,14 +2223,29 @@ body.layout-full {
 
 /* Styles for Metaslider Flexslider Caption */
 
+.metaslider.events .flexslider .caption-wrap {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: inherit;
+    background: rgba(41, 38, 36, 0.6);
+    color: white;
+    display: block;
+    width: 66.6%;
+    padding: 42px;
+    box-sizing: border-box;
+    transform: translate(0, -50%);
+    text-align: left;
+    opacity: 1;
+}
+
 .metaslider .flexslider .caption-wrap {
     position: absolute;
     top: 50%;
     left: 68.5%;
     bottom: inherit;
-    background: #292624;
+    background: rgba(41, 38, 36, 0.6);;
     color: white;
-    opacity: 0.7;
     display: block;
     width: 31.5%;
     line-height: 1.4em;
@@ -2233,11 +2253,19 @@ body.layout-full {
     box-sizing: border-box;
     transform: translate(0, -50%);
     text-align: center;
-
+    opacity: 1;
 }
 
 .metaslider .flexslider .caption-wrap .caption {
     padding: 0;   
+}
+
+.metaslider.events .flexslider .caption-wrap .caption h3 {
+    font-family:  'Futura-Book', Arial, sans-serif;
+    font-size: 60px;
+    letter-spacing: 0.085em;
+    line-height: 66px;
+    margin-bottom: 24px;
 }
 
 .metaslider .flexslider .caption-wrap .caption h3 {
@@ -2246,6 +2274,7 @@ body.layout-full {
     letter-spacing: 0.085em;
     line-height: 30px;
     margin-bottom: 21px;
+    color: #fff;
 }
 
 .metaslider .flexslider .caption-wrap .caption h3 span {
@@ -2274,7 +2303,46 @@ body.layout-full {
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0.065em;
+    color: #fff;
 }
+
+@media  (max-width: 768px){
+    
+    .metaslider.events .flexslider .caption-wrap {
+        width: 100%;
+    }
+    
+    .metaslider .flexslider .caption-wrap {
+        position: absolute;
+        top: inherit;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 21px;
+        transform: translate(0%,0%);
+    }
+    
+    .metaslider.events .flexslider .caption-wrap .caption h3 {
+        font-size: 30px;
+        line-height: 33px;
+}
+    
+    .metaslider .flexslider .caption-wrap .caption h3 span {
+        margin-bottom: 48px;  
+    }
+}
+
+@media  (max-width: 480px){
+    .flexslider .flex-direction-nav li a.flex-prev, .flexslider .flex-direction-nav li a.flex-next  {
+        display: none;
+    }
+    
+    .metaslider .flexslider .caption-wrap .caption p {
+        display: none
+    }
+}
+
+
 
 /* Styles for Metaslider Prebuilt */
 .metaslider .msHtmlOverlay .layer .siteorigin-slider-action-button {
