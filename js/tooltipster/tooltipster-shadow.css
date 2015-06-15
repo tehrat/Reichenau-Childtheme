@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .tooltipster-shadow {
 	border-radius: 5px;
 	background: #3e3b39;
@@ -9,4 +10,17 @@
 	font-size: 16px;
 	line-height: 40px;
 	padding: 20px 24px;
+=======
+.tooltipster-shadow {
+	border-radius: 5px;
+	background: #3e3b39;
+	box-shadow: 0px 0px 14px rgba(0,0,0,0.3);
+	color: #aeadad;
+}
+.tooltipster-shadow .tooltipster-content {
+	font-family: 'Futura Book', Arial, sans-serif;
+	font-size: 16px;
+	line-height: 40px;
+	padding: 20px 24px;
+>>>>>>> origin/master
 }
