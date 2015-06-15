@@ -17,5 +17,4 @@
 <?php wp_footer(); ?></body>
 </div>
 <div align="center">
-
 </html>
